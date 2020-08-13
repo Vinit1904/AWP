@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .nav-bar ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            background-color: cadetblue;
+
+        }
+
+        body div {
+            margin: 2rem;
+        }
+
+        input {
+            height: 1rem;
+            width: 20rem;
+        }
+    </style>
+
+    <script src="Day6_1.js"></script>
+</head>
+
+<body>
+
+    <div class="nav-bar">
+
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+
+    <div>
+        <button id="like" onclick="like()">Like 1</button>
+        <button id="dislike" onclick="dislike()">Dislike 1</button>
+    </div>
+
+
+    <div>
+        <input type="text" id="comment" placeholder="Comment Here">
+        <button id="submit" onclick="commentbox()">Submit</button>
+    </div>
+
+
+    <div id="commentbox">
+
+
+    </div>
+
+
+
+</body>
+
+</html>
