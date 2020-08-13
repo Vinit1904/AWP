@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        margin: 0rem;
+    }
+
+    .main {
+        background-color: antiquewhite;
+        border: 0.1rem;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main div {
+
+        height: 20vh;
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem;
+
+    }
+</style>
+<script src="Day5_1.js"></script>
+
+<body>
+
+    <div class="main">
+        <div class="container" onmouseover="HandleMouseOver()" onmouseout="HandleMouseDown()">
+
+            <div id="text">
+                query Selector
+            </div>
+        </div>
+
+
+        <div id="f001" onmouseover="HandleMouseOver1()" onmouseout="HandleMouseDown1()">
+
+            <div id="text">
+                id_Selector
+            </div>
+        </div>
+
+
+
+        <div onmouseover="HandleMouseOver2()" onmouseout="HandleMouseDown2()">
+
+            <div id="text">
+                id_Selector
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
