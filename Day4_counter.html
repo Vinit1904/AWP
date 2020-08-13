@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+
+    <script src="Day4_counter.js"></script>
+</head>
+
+<style>
+    .main {
+        display: flex;
+    }
+
+    .inc button,
+    .desc button {
+        height: 4rem;
+        width: 14rem;
+        font-size: 2rem;
+
+    }
+
+    #count {
+        font-size: 32px;
+        border: solid 0.2rem black;
+        color: crimson;
+        font-weight: bold;
+        margin: 1rem;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="inc" onclick="increament()">
+
+            <button>Increament</button>
+        </div>
+
+        <div id="count">1</div>
+
+        <div class="desc" onclick="decreament()">
+
+            <button>Decrement</button>
+        </div>
+    </div>
+</body>
+
+</html>
